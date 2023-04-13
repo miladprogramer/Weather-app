@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+
+    <div class="weather-container">
+
+
+        <div class="search-box">
+            <div class="input-search">
+                <input class="input-box" type="text" placeholder="Enter city name..." />
+            </div>
+            <div class="button-search">
+                <img class="search-icon" src="./image/search.png" />
+            </div>
+        </div>
+        <div class="weather-img">
+            <img src="./image/clouds.png" width="150px" height="150px" />
+        </div>
+        <div class="temperature">
+            <div class="degree">
+                <span>22 C</span>
+            </div>
+            <div class="city-name">
+                <span>New York</span>
+            </div>
+        </div>
+
+        <div class="wind-speed">
+            <div class="humidity">
+                <div class="percent">
+
+                    <img src="./image/humidity.png" width="30px" height="30px" />
+                    <span>
+                        64%
+                    </span>
+                </div>
+                <span class="subtitle">Humidity</span>
+            </div>
+            <div class="speed">
+                <div class="km">
+                    <img src="./image/wind.png" width="30px" height="30px"/>
+                    <span>
+                        18 km/h
+                    </span>
+                </div>
+                <span class="subtitle">Wind Speed</span>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
