@@ -9,9 +9,23 @@ body{
   align-items: center;
     width: 400px;
     height: 500px;
-    background: linear-gradient(135deg,#3494b9,#ff9b05);
+    background: linear-gradient(135deg,#3494b9,#ec9410);
     color: #fff;
     border-radius: 20px;
+}
+.weather{
+    display: flex;
+    text-align: center;
+    
+  align-items: center;
+  display: none;
+}
+.error{
+    display: none;
+}
+.error > h3{
+color: rgb(73, 52, 52);
+transition: all 1s;
 }
 .search-box{
     display: flex;
